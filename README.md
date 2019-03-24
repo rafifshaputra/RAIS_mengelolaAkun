@@ -1,6 +1,6 @@
 # RAIS_C4
-Rizky Agung Information Systems by Propensi Group C4<br>
-Our team:<br>
+Rizky Agung Information Systems by Propensi Group C4<br><br>
+<b>Our team:</b><br>
 1. Debora Dian Pratama B. <br>
 2. Muhamad Arif Budiono<br>
 3. Muhammad Arief Wibowo<br>
