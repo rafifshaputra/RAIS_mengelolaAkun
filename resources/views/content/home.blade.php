@@ -16,6 +16,8 @@
     </span>
 </div>
 <br>
+<br>
+<br>
 <div class="row">
   <div class="column">
     <div class="card">
@@ -98,11 +100,11 @@
         <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
            Lihat
         </a>
-       </p>
+      </p>
     </div>
   </div>
 
 </div>
 
-    @endsection
+@endsection
 

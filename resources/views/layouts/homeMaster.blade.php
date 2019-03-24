@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <title> @yield('title')</title>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -10,14 +10,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/homeMaster.css">
-<style>
-@media only screen and (max-width: 600px) {
-    hr{
-    margin-top:75px;
-  }
-}
-
-</style>
+    <style>
+    @media only screen and (max-width: 600px) {
+        hr{margin-top:75px;}
+    }
+    </style>
 </head>
 
 <body>
@@ -33,11 +30,11 @@
                 <a href="#services">Info</a>
             </div><br>
             <div>
-                    <a href="#"><img src="https://i.ibb.co/zsmp4L4/ra-logo1-1.png" alt="ra-logo1-1" border="0"></a>
+                <a href="#"><img src="https://i.ibb.co/zsmp4L4/ra-logo1-1.png" alt="ra-logo1-1" border="0"></a>
                 <a href="#clients">Tentang</a>
             </div><br>
             <div>
-                    <a href="#"><img src="https://i.ibb.co/DLwhZhW/user-silhouette-2.png" alt="user-silhouette-2" border="0"></a>
+                <a href="#"><img src="https://i.ibb.co/DLwhZhW/user-silhouette-2.png" alt="user-silhouette-2" border="0"></a>
                 <a href="#contact">Pengaturan Akun</a>
             </div>
     </div>
@@ -54,12 +51,10 @@
                 <span style="font-size:18px;"> Rafif Iqbal Shaputra</span>
             </span>
         </nav>
-    <span class="pembatas"> <hr style="border-top: 2px solid #ADADAD;opacity:0.5;"></span>
+        <span class="pembatas"> <hr style="border-top: 2px solid #ADADAD;opacity:0.5;"></span>
     </header>
 
     <br>
-
-
 
     <div class="main">
         @yield('content')
