@@ -26,7 +26,7 @@
         <a href="#"><img src="https://i.ibb.co/r2CGdQR/screwdriver-and-wrench-crossed-1.png" alt="screwdriver-and-wrench-crossed-1" border="0"></a>
       <br>
       <p>
-        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+        <a href="/detail" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
            Lihat
         </a>
        </p>
@@ -40,7 +40,7 @@
         <a href="#"><img src="https://i.ibb.co/kDh1v6h/market-store.png" alt="market-store" border="0"></a>
       <br>
       <p>
-        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+        <a href="/detail" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
            Lihat
         </a>
        </p>
@@ -55,7 +55,7 @@
         <a href="#"><img src="https://i.ibb.co/yq1ZRf5/employee.png" alt="employee" border="0"></a>
       <br>
       <p>
-        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+        <a href="/detail" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
            Lihat
         </a>
        </p>
@@ -69,7 +69,7 @@
       <a href="#"><img src="https://i.ibb.co/XDYTnRC/box.png" alt="box" border="0"></a>
       <br>
       <p>
-        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+        <a href="/detail" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
            Lihat
         </a>
        </p>
@@ -83,7 +83,7 @@
       <a href="#"><img src="https://i.ibb.co/8M2vYFy/delivery-man.png" alt="delivery-man" border="0"></a>
       <br>
       <p>
-        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+        <a href="/detail" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
            Lihat
         </a>
        </p>
@@ -97,7 +97,7 @@
       <a href="#"><img src="https://i.ibb.co/sgwc6m1/list.png" alt="list" border="0"></a>
       <br>
       <p>
-        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+        <a href="/detail" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
            Lihat
         </a>
       </p>

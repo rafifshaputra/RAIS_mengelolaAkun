@@ -25,9 +25,9 @@
     <header>
 
         <nav>
-            <a href="#"><span style="font-size:28px;color:#2A2E43;">Dashboard</span></a>
+            <a href="/"><span style="font-size:28px;color:#2A2E43;">Dashboard</span></a>
             <span class="right-nav" style=" align:120px;float:right;font-size:15px;padding-top:2px;">
-                <a href="#" class="btn btn-default btn-sm" style="background-color:#2A2E43;color:white;font-size:15px;border-radius: 25px;width:100px;margin-right:20px;" >
+                <a href="/" class="btn btn-default btn-sm" style="background-color:#2A2E43;color:white;font-size:15px;border-radius: 25px;width:100px;margin-right:20px;" >
                     Beranda
                </a>
                 <a href="#" class="btn btn-default btn-sm" style="background-color:#EA4764;color:white;font-size:15px;border-radius: 25px;width:100px;" >
