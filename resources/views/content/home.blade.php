@@ -1,40 +1,108 @@
 @extends('layouts.homeMaster')
-
 @section('title','Home')
 
-    @section('content')
+<head>
+    <link rel="stylesheet" href="css/home.css">
+</head>
 
-    <h2 align="center"> Halo Rafif Iqbal Shaputra </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet dui molestie, scelerisque libero ac, molestie nisi.
-        Fusce iaculis commodo nulla, dictum dapibus velit ultrices vel. Nam bibendum et tellus eget posuere. In non pellentesque diam,
-        quis lacinia nisl. Nam eu magna at neque semper condimentum. Aliquam diam nibh, commodo id mauris non, commodo dictum lacus.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque vitae quam ex.
-        Maecenas vitae mollis magna, eget convallis felis. Phasellus ultrices aliquam enim, id blandit odio laoreet vel.
-        Sed nulla elit, varius at velit ut, lacinia volutpat sem. Maecenas varius efficitur massa, eu convallis felis viverra vel.
-        Donec convallis sapien a orci scelerisque, sit amet tincidunt nisl vestibulum.
-        Pellentesque elementum dapibus turpis accumsan sollicitudin. Curabitur non diam at sapien venenatis feugiat ultrices vitae justo.
-    </p>
+@section('content')
+<div class="tulisanAkun">
+    <span>Halo, </span>
+    <span style="color:00A6A0;">Rafif!</span>
+    <span class="kelolaAkun" style=" align:120px;float:right;font-size:15px;padding-top:2px;">
+        <a href="#" class="btn btn-default btn-sm" style="background-color:#2A2E43;color:white;font-size:15px;border-radius: 10px;width:150px;height:35px" >
+        Kelola Akun
+        </a>
+    </span>
+</div>
+<br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Daftar Aset</h4>
+      <br>
+        <a href="#"><img src="https://i.ibb.co/r2CGdQR/screwdriver-and-wrench-crossed-1.png" alt="screwdriver-and-wrench-crossed-1" border="0"></a>
+      <br>
+      <p>
+        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+           Lihat
+        </a>
+       </p>
+    </div>
+  </div>
 
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet dui molestie, scelerisque libero ac, molestie nisi.
-            Fusce iaculis commodo nulla, dictum dapibus velit ultrices vel. Nam bibendum et tellus eget posuere. In non pellentesque diam,
-            quis lacinia nisl. Nam eu magna at neque semper condimentum. Aliquam diam nibh, commodo id mauris non, commodo dictum lacus.
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque vitae quam ex.
-            Maecenas vitae mollis magna, eget convallis felis. Phasellus ultrices aliquam enim, id blandit odio laoreet vel.
-            Sed nulla elit, varius at velit ut, lacinia volutpat sem. Maecenas varius efficitur massa, eu convallis felis viverra vel.
-            Donec convallis sapien a orci scelerisque, sit amet tincidunt nisl vestibulum.
-            Pellentesque elementum dapibus turpis accumsan sollicitudin. Curabitur non diam at sapien venenatis feugiat ultrices vitae justo.
-        </p>
+ <div class="column">
+    <div class="card">
+      <h4>Daftar Vendor</h4>
+      <br>
+        <a href="#"><img src="https://i.ibb.co/kDh1v6h/market-store.png" alt="market-store" border="0"></a>
+      <br>
+      <p>
+        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+           Lihat
+        </a>
+       </p>
+    </div>
+  </div>
 
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet dui molestie, scelerisque libero ac, molestie nisi.
-                Fusce iaculis commodo nulla, dictum dapibus velit ultrices vel. Nam bibendum et tellus eget posuere. In non pellentesque diam,
-                quis lacinia nisl. Nam eu magna at neque semper condimentum. Aliquam diam nibh, commodo id mauris non, commodo dictum lacus.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque vitae quam ex.
-                Maecenas vitae mollis magna, eget convallis felis. Phasellus ultrices aliquam enim, id blandit odio laoreet vel.
-                Sed nulla elit, varius at velit ut, lacinia volutpat sem. Maecenas varius efficitur massa, eu convallis felis viverra vel.
-                Donec convallis sapien a orci scelerisque, sit amet tincidunt nisl vestibulum.
-                Pellentesque elementum dapibus turpis accumsan sollicitudin. Curabitur non diam at sapien venenatis feugiat ultrices vitae justo.
-            </p>
 
+  <div class="column">
+    <div class="card">
+      <h4>Daftar Pegawai</h4>
+      <br>
+        <a href="#"><img src="https://i.ibb.co/yq1ZRf5/employee.png" alt="employee" border="0"></a>
+      <br>
+      <p>
+        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+           Lihat
+        </a>
+       </p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card">
+      <h4>Daftar Paket Wedding</h4>
+      <br>
+      <a href="#"><img src="https://i.ibb.co/XDYTnRC/box.png" alt="box" border="0"></a>
+      <br>
+      <p>
+        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+           Lihat
+        </a>
+       </p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card">
+      <h4>Daftar Pesanan</h4>
+      <br>
+      <a href="#"><img src="https://i.ibb.co/8M2vYFy/delivery-man.png" alt="delivery-man" border="0"></a>
+      <br>
+      <p>
+        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+           Lihat
+        </a>
+       </p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card">
+      <h4>Daftar Aktivitas</h4>
+      <br>
+      <a href="#"><img src="https://i.ibb.co/sgwc6m1/list.png" alt="list" border="0"></a>
+      <br>
+      <p>
+        <a href="#" class="btn btn-default btn-sm" style="background-color:#00A6A0;color:white;font-size:15px;border-radius: 25px;width:120px;  " >
+           Lihat
+        </a>
+       </p>
+    </div>
+  </div>
+
+</div>
 
     @endsection
 

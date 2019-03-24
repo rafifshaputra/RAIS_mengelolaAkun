@@ -4,87 +4,40 @@
 
     <title> @yield('title')</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/homeMaster.css">
+<style>
+@media only screen and (max-width: 600px) {
+    hr{
+    margin-top:75px;
+  }
+}
 
-    <style>
-    body{
-        padding:10px;
-        font-family: 'Montserrat'
-    }
-
-   nav{
-        margin-left: 160px; /* Same as the width of the sidenav */
-        /* Increased text to enable scrolling */
-        padding: 0px 10px;
-        padding-left:10px;
-        padding-right:10px;
-    }
-
-    footer{
-        padding-top:15px;
-    }
-
-    .sidenav {
-        height: 100%;
-        width: 160px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        padding-top: 20px;
-    }
-
-    .sidenav a {
-        padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 18px;
-        color: #818181;
-        display: block;
-    }
-
-    .sidenav a:hover {
-        color: #f1f1f1;
-    }
-
-    .main {
-        margin-left: 160px; /* Same as the width of the sidenav */
-        font-size: 12px; /* Increased text to enable scrolling */
-        padding: 0px 10px;
-    }
-
-    @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-    }
-
-
-    </style>
+</style>
 </head>
 
 <body>
-    <div class="sidenav">
-            <img src="ra1.png" alt="" id = "gambar-rais" class = "center">
+    <div class="sidenav" align="center">
+            <a href="#"><img src="https://i.ibb.co/6F4FD90/ra-logo1.png" alt="ra-logo1" border="0"></a>
             <br><br>
             <div>
-                <img src="ra1.png" alt="" class = "gambar-rais-kiri">
+                <a href="#"><img src="https://i.ibb.co/rZJfdb8/dashboard.png" alt="dashboard" border="0"></a>
                 <a href="#about">Beranda</a>
             </div><br>
-            <div>
-                <img src="ra1.png" alt="" class = "gambar-rais-kiri">
+            <div >
+                <a href="#"><img src="https://i.ibb.co/GJT89v9/image.png" alt="image" border="0"></a>
                 <a href="#services">Info</a>
             </div><br>
             <div>
-                <img src="ra1.png" alt="" class = "gambar-rais-kiri">
+                    <a href="#"><img src="https://i.ibb.co/zsmp4L4/ra-logo1-1.png" alt="ra-logo1-1" border="0"></a>
                 <a href="#clients">Tentang</a>
             </div><br>
             <div>
-                <img src="ra1.png" alt="" class = "gambar-rais-kiri">
+                    <a href="#"><img src="https://i.ibb.co/DLwhZhW/user-silhouette-2.png" alt="user-silhouette-2" border="0"></a>
                 <a href="#contact">Pengaturan Akun</a>
             </div>
     </div>
@@ -94,14 +47,14 @@
         <nav>
             <a href="#"><span style="font-size:28px;color:#2A2E43;">Dashboard</span></a>
             <span class="right-nav" style=" align:120px;float:right;font-size:15px;padding-top:2px;">
-                <a href="#" class="btn btn-default btn-sm" style="background-color:#EA4764;color:white;font-size:15px;border-radius: 25px;" >
+                <a href="#" class="btn btn-default btn-sm" style="background-color:#EA4764;color:white;font-size:15px;border-radius: 25px;width:100px;" >
                      Log out
                 </a>
                 <span style="padding:5px;color:#2A2E43;opacity:0.2;font-size:25px;" > | </span>
-                <span> Rafif Iqbal Shaputra</span>
+                <span style="font-size:18px;"> Rafif Iqbal Shaputra</span>
             </span>
         </nav>
-    <span> <hr style="border-top: 2px solid #ADADAD;opacity:0.5;"></span>
+    <span class="pembatas"> <hr style="border-top: 2px solid #ADADAD;opacity:0.5;"></span>
     </header>
 
     <br>
