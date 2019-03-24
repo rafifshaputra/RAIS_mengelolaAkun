@@ -9,7 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/homeMaster.css">
+    <link rel="stylesheet" href="css/detailMaster.css">
     <style>
     @media only screen and (max-width: 600px) {
         hr{margin-top:75px;}
@@ -22,27 +22,6 @@
 </head>
 
 <body>
-    <div class="sidenav" align="center">
-            <a href="#"><img src="https://i.ibb.co/6F4FD90/ra-logo1.png" alt="ra-logo1" border="0"></a>
-            <br><br>
-            <div>
-                <a href="#"><img src="https://i.ibb.co/rZJfdb8/dashboard.png" alt="dashboard" border="0"></a>
-                <a href="#about">Beranda</a>
-            </div><br>
-            <div >
-                <a href="#"><img src="https://i.ibb.co/GJT89v9/image.png" alt="image" border="0"></a>
-                <a href="#services">Info</a>
-            </div><br>
-            <div>
-                <a href="#"><img src="https://i.ibb.co/zsmp4L4/ra-logo1-1.png" alt="ra-logo1-1" border="0"></a>
-                <a href="#clients">Tentang</a>
-            </div><br>
-            <div>
-                <a href="#"><img src="https://i.ibb.co/DLwhZhW/user-silhouette-2.png" alt="user-silhouette-2" border="0"></a>
-                <a href="#contact">Pengaturan Akun</a>
-            </div>
-    </div>
-
     <header>
 
         <nav>

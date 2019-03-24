@@ -1,4 +1,4 @@
-@extends('layouts.detailMaster')
+@extends('layouts.homeMaster')
 @section('title','Home')
 
 <head>

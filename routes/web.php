@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('content/home');
 });
+
+Route::get('/detail', function () {
+    return view('content/template');
+});
